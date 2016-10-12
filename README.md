@@ -30,5 +30,7 @@ INSERT IMAGE
   -	'morning_exercise'
   -	'student_labs'
   -	'student_examples'
+ <br>
 ![Image of subfolders](img/subfolders.png)
+<br>
  Note: You can change the names of these subfolders (or remove them), by changing the names inside the array at the beginning of the script.
