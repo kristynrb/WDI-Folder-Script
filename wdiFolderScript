@@ -1,57 +1,84 @@
 #!/bin/bash
+# Array of subfolder names
+internalFolder=(
+	'homework'
+	'instructor_notes'
+	'instructor_examples'
+	'morning_exercise'
+	'student_labs'
+	'student_examples'
+)
+# The count is for the index of the internalFolder array
+count=0
+
+# The number of the first unit in your program
 unit=1
 
+# Adding .gitignore file to root of repo
+touch .gitignore
+
+# Adding .gitkeep to empty folders
+find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
+
+# Creating a README file in the root directory with the GA logo
+echo "![ga](http://mobbook.generalassemb.ly/ga_cog.png)" >> README.md
+
+# Loop to write unit 1 folders and subfolders
 while [ $unit -eq 1 ]; do
 	mkdir unit_$unit
 	mkdir unit_$unit/w{1..4}d{1..5}
-	touch unit_$unit/w{1..4}d{1..5}/readme.md
-	cd unit_$unit/w{1..4}d{1..5}	
-	echo “WDIr-Matrix” >> readme.md
-	cd ..
-	cd ..
+		for i in "${internalFolder[@]}"
+			do
+			mkdir unit_$unit/w{1..4}d{1..5}/$i
+			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
+		done
 	let unit=unit+1
 done
 
+# Loop to write unit 2 folders and subfolders
 while [ $unit -eq 2 ]; do
 	mkdir unit_$unit
 	mkdir unit_$unit/w{5..6}d{1..5}
-	touch unit_$unit/w{5..6}d{1..5}/readme.md
-	cd unit_$unit/w{5..6}d{1..5}	
-	echo “WDIr-Matrix” >> readme.md
-	cd ..
-	cd ..
+		for i in "${internalFolder[@]}"
+			do
+			mkdir unit_$unit/w{5..6}d{1..5}/$i
+			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
+		done
 	let unit=unit+1
 done
 
+# Loop to write unit 3 folders and subfolders
 while [ $unit -eq 3 ]; do
 	mkdir unit_$unit
 	mkdir unit_$unit/w{7..9}d{1..5}
-	touch unit_$unit/w{7..9}d{1..5}/readme.md
-	cd unit_$unit/w{7..9}d{1..5}	
-	echo “WDIr-Matrix” >> readme.md
-	cd ..
-	cd ..
+		for i in "${internalFolder[@]}"
+			do
+			mkdir unit_$unit/w{7..9}d{1..5}/$i
+			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
+		done
 	let unit=unit+1
 done
 
+# Loop to write unit 4 folders and subfolders
 while [ $unit -eq 4 ]; do
 	mkdir unit_$unit
 	mkdir unit_$unit/w{10..11}d{1..5}
-	touch unit_$unit/w{10..11}d{1..5}/readme.md
-	cd unit_$unit/w{10..11}d{1..5}	
-	echo “WDIr-Matrix” >> readme.md
-	cd ..
-	cd ..
+		for i in "${internalFolder[@]}"
+			do
+			mkdir unit_$unit/w{10..11}d{1..5}/$i
+			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
+		done
 	let unit=unit+1
 done
 
+# Loop to write unit 5 folders and subfolders
 while [ $unit -eq 5 ]; do
 	mkdir unit_$unit
 	mkdir unit_$unit/w{12..13}d{1..5}
-	touch unit_$unit/w{12..13}d{1..5}/readme.md
-	cd unit_$unit/w{12..11}d{1..5}	
-	echo “WDIr-Matrix” >> readme.md
-	cd ..
-	cd ..
+		for i in "${internalFolder[@]}"
+			do
+			mkdir unit_$unit/w{12..13}d{1..5}/$i
+			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
+		done
 	let unit=unit+1
 done
