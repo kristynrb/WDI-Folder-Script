@@ -24,9 +24,12 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 <br>
  
  Note: You can change the *weeks* that you need for each unit in the code by modifying the numbers between the `w{}` inside the specific unit's code in the following two lines:
- `mkdir unit_$unit/w{1..4}d{1..5}`
- and
- `mkdir unit_$unit/w{1..4}d{1..5}/$i`
+
+`mkdir unit_$unit/w{1..4}d{1..5}`
+
+and
+
+`mkdir unit_$unit/w{1..4}d{1..5}/$i`
 
 5) Subfolders
  - Subfolders for each day. The current list of subfolders is:
