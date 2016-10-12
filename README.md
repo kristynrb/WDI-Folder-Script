@@ -7,16 +7,17 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 
 ### This script will produce the following:
 
-- README.md file with GA logo
-- .gitignore file
+1) README.md file with GA logo
 
-#### Unit Folders
+2) .gitignore file
+
+3) Unit Folders
 - Directories for unit_1 through unit 5
  <br>
 ![Image of unit folders](img/unit.png)
 <br>
  
-#### Week and Day Folders
+4) Week and Day Folders
  - Directories for the week and days of each unit. Ex: In unit_1, there are directories for w1d1 through w5d5.
 <br>
 ![Image of subfolders](img/week_day.png)
@@ -27,7 +28,7 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
  and
  `mkdir unit_$unit/w{1..4}d{1..5}/$i`
 
-#### Subfolders
+5) Subfolders
  - Subfolders for each day. The current list of subfolders is:
   - 'homework'
   -	'instructor_notes'
