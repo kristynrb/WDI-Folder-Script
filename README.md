@@ -12,11 +12,16 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 
 #### Unit Folders
 - Directories for unit_1 through unit 5
- INSERT IMAGE
+ <br>
+![Image of unit folders](img/unit.png)
+<br>
  
 #### Week and Day Folders
  - Directories for the week and days of each unit. Ex: In unit_1, there are directories for w1d1 through w5d5.
-INSERT IMAGE
+<br>
+![Image of subfolders](img/week_day.png)
+<br>
+ 
  Note: You can change the *weeks* that you need for each unit in the code by modifying the numbers between the `w{}` inside the specific unit's code in the following two lines:
  `mkdir unit_$unit/w{1..4}d{1..5}`
  and
