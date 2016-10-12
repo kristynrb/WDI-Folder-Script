@@ -1,0 +1,57 @@
+#!/bin/bash
+unit=1
+
+while [ $unit -eq 1 ]; do
+	mkdir unit_$unit
+	mkdir unit_$unit/w{1..4}d{1..5}
+	touch unit_$unit/w{1..4}d{1..5}/readme.md
+	cd unit_$unit/w{1..4}d{1..5}	
+	echo “WDIr-Matrix” >> readme.md
+	cd ..
+	cd ..
+	let unit=unit+1
+done
+
+while [ $unit -eq 2 ]; do
+	mkdir unit_$unit
+	mkdir unit_$unit/w{5..6}d{1..5}
+	touch unit_$unit/w{5..6}d{1..5}/readme.md
+	cd unit_$unit/w{5..6}d{1..5}	
+	echo “WDIr-Matrix” >> readme.md
+	cd ..
+	cd ..
+	let unit=unit+1
+done
+
+while [ $unit -eq 3 ]; do
+	mkdir unit_$unit
+	mkdir unit_$unit/w{7..9}d{1..5}
+	touch unit_$unit/w{7..9}d{1..5}/readme.md
+	cd unit_$unit/w{7..9}d{1..5}	
+	echo “WDIr-Matrix” >> readme.md
+	cd ..
+	cd ..
+	let unit=unit+1
+done
+
+while [ $unit -eq 4 ]; do
+	mkdir unit_$unit
+	mkdir unit_$unit/w{10..11}d{1..5}
+	touch unit_$unit/w{10..11}d{1..5}/readme.md
+	cd unit_$unit/w{10..11}d{1..5}	
+	echo “WDIr-Matrix” >> readme.md
+	cd ..
+	cd ..
+	let unit=unit+1
+done
+
+while [ $unit -eq 5 ]; do
+	mkdir unit_$unit
+	mkdir unit_$unit/w{12..13}d{1..5}
+	touch unit_$unit/w{12..13}d{1..5}/readme.md
+	cd unit_$unit/w{12..11}d{1..5}	
+	echo “WDIr-Matrix” >> readme.md
+	cd ..
+	cd ..
+	let unit=unit+1
+done
