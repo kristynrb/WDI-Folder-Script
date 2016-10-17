@@ -14,7 +14,7 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 
 2) .gitignore file
 
-3) a project folders with project subfolders (1-4)
+3) a project folder with project subfolders (1-4)
 
 4) Unit Folders
 - Directories for unit_1 through unit 5
