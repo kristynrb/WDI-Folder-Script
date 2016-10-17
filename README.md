@@ -14,18 +14,20 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 
 2) .gitignore file
 
-3) Unit Folders
+3) a project folders with project subfolders (1-4)
+
+4) Unit Folders
 - Directories for unit_1 through unit 5
  <br>
 ![Image of unit folders](img/unit.png)
 <br>
- 
-4) Week and Day Folders
+
+5) Week and Day Folders
  - Directories for the week and days of each unit. Ex: In unit_1, there are directories for w1d1 through w5d5.
 <br>
 ![Image of subfolders](img/week_day.png)
 <br>
- 
+
  Note: You can change the *weeks* that you need for each unit in the code by modifying the numbers between the `w{}` inside the specific unit's code in the following two lines:
 
   `mkdir unit_$unit/w{1..4}d{1..5}`
@@ -34,7 +36,7 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 
   `mkdir unit_$unit/w{1..4}d{1..5}/$i`
 
-5) Subfolders
+6) Subfolders
  - Subfolders for each day. The current list of subfolders is:
   - 'homework'
   -	'instructor_notes'
