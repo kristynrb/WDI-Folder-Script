@@ -1,7 +1,9 @@
 # WDI-Folder-Script
 This script provides the folder structure for General Assembly's Web Development Immersive class repository. It includes a GA logo which can be reused on each of your file documents.
 
-Plans for future improvement: Adding license information for the repository.
+Plans for future improvement: 
+- Adding license information for the repository.
+- double digit days and weeks for easier sorting.
 
 ### To run the script
 - Clone the `wdiFolderScript` file or paste the code from that file into a new file on your local machine.
