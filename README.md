@@ -23,9 +23,9 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 <br>
 
 5) Week and Day Folders
- - Directories for the week and days of each unit. Ex: In unit_1, there are directories for w1d1 through w5d5.
+ - Directories for the week and days of each unit. Ex: In unit_1, there are directories for w01d01 through w05d05.
 <br>
-![Image of subfolders](img/week_day.png)
+![Image of subfolders](https://i.imgur.com/NKqfaFI.png)
 <br>
 
  Note: You can change the *weeks* that you need for each unit in the code by modifying the numbers between the `w{}` inside the specific unit's code in the following two lines:
