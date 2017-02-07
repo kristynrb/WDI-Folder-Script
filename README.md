@@ -49,6 +49,8 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 <br>
  Note: You can change the names of these subfolders (or remove them), by changing the names inside the array at the beginning of the script.
  
+ <hr>
+ 
 ### Updated in February 2017:
 - Added license information for the repository (LICENSE.txt file and license information in README.md file).
 - double digit days and weeks for easier sorting.
