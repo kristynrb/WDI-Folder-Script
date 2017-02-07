@@ -23,17 +23,18 @@ find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 # Creating a README file in the root directory with the GA logo
 echo "![ga](http://mobbook.generalassemb.ly/ga_cog.png)" >> README.md
 
-# Creating a Project folder with Projects 1-4 as subfolders
+# Creating a Project folder with Projects 1-4 and `final_project` as subfolders
 mkdir projects
 mkdir projects/project_{1..4}
+mkdir projects/final_projects
 
 # Loop to write unit 1 folders and subfolders
 while [ $unit -eq 1 ]; do
 	mkdir unit_$unit
-	mkdir unit_$unit/w{1..4}d{1..5}
+	mkdir unit_$unit/w0{1..04}d0{1..05}
 		for i in "${internalFolder[@]}"
 			do
-			mkdir unit_$unit/w{1..4}d{1..5}/$i
+			mkdir unit_$unit/w0{1..4}d0{1..5}/$i
 			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 		done
 	let unit=unit+1
@@ -42,10 +43,10 @@ done
 # Loop to write unit 2 folders and subfolders
 while [ $unit -eq 2 ]; do
 	mkdir unit_$unit
-	mkdir unit_$unit/w{5..6}d{1..5}
+	mkdir unit_$unit/w0{5..7}d0{1..5}
 		for i in "${internalFolder[@]}"
 			do
-			mkdir unit_$unit/w{5..6}d{1..5}/$i
+			mkdir unit_$unit/w0{5..7}d0{1..5}/$i
 			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 		done
 	let unit=unit+1
@@ -54,10 +55,10 @@ done
 # Loop to write unit 3 folders and subfolders
 while [ $unit -eq 3 ]; do
 	mkdir unit_$unit
-	mkdir unit_$unit/w{7..9}d{1..5}
+	mkdir unit_$unit/w0{8..9}d0{1..5}
 		for i in "${internalFolder[@]}"
 			do
-			mkdir unit_$unit/w{7..9}d{1..5}/$i
+			mkdir unit_$unit/w0{8..9}d0{1..5}/$i
 			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 		done
 	let unit=unit+1
@@ -66,10 +67,10 @@ done
 # Loop to write unit 4 folders and subfolders
 while [ $unit -eq 4 ]; do
 	mkdir unit_$unit
-	mkdir unit_$unit/w{10..11}d{1..5}
+	mkdir unit_$unit/w{10..11}d0{1..5}
 		for i in "${internalFolder[@]}"
 			do
-			mkdir unit_$unit/w{10..11}d{1..5}/$i
+			mkdir unit_$unit/w{10..11}d0{1..5}/$i
 			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 		done
 	let unit=unit+1
@@ -78,10 +79,10 @@ done
 # Loop to write unit 5 folders and subfolders
 while [ $unit -eq 5 ]; do
 	mkdir unit_$unit
-	mkdir unit_$unit/w{12..13}d{1..5}
+	mkdir unit_$unit/w{12..13}d0{1..5}
 		for i in "${internalFolder[@]}"
 			do
-			mkdir unit_$unit/w{12..13}d{1..5}/$i
+			mkdir unit_$unit/w{12..13}d0{1..5}/$i
 			find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 		done
 	let unit=unit+1
