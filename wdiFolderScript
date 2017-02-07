@@ -21,7 +21,10 @@ touch .gitignore
 find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 
 # Creating a README file in the root directory with the GA logo
-echo "![ga](http://mobbook.generalassemb.ly/ga_cog.png)" >> README.md
+echo "![ga](http://mobbook.generalassemb.ly/ga_cog.png) <br> ## Licensing <br> 1. All content is licensed under a CC­BY­NC­SA 4.0 license.<br> 1. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co." >> README.md
+
+# Creating a LICENSE file in the root directory - this will need to be completed by the individual cohort
+echo "Please fill this out with the License information found on Confluence" >> LICENSE.txt
 
 # Creating a Project folder with Projects 1-4 and `final_project` as subfolders
 mkdir projects
