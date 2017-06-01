@@ -12,8 +12,6 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 
 2) LICENSE.txt file - the information in the file will need to be added by your cohort.
 
-2) .gitignore file
-
 3) a project folder with project subfolders for projects 1-4 and the final projects.
 
 4) Unit Folders
