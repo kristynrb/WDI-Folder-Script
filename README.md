@@ -19,13 +19,17 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
 4) Unit Folders
 - Directories for unit_1 through unit 5
  <br>
+ 
 ![Image of unit folders](img/unit.png)
+
 <br>
 
 5) Week and Day Folders
  - Directories for the week and days of each unit. Ex: In unit_1, there are directories for w01d01 through w05d05.
 <br>
+
 ![Image of subfolders](https://i.imgur.com/NKqfaFI.png)
+
 <br>
 
  Note: You can change the *weeks* that you need for each unit in the code by modifying the numbers between the `w{}` inside the specific unit's code in the following two lines:
@@ -45,7 +49,9 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
   -	'student_labs'
   -	'student_examples'
  <br>
+ 
 ![Image of subfolders](img/subfolders.png)
+
 <br>
  Note: You can change the names of these subfolders (or remove them), by changing the names inside the array at the beginning of the script.
  
