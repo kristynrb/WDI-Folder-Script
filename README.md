@@ -55,7 +55,10 @@ Ex:`new_folder:$ ~/Desktop/wdiFolderScript`
  
  <hr>
  
-### Updated in February 2017:
+#### Updated in February 2017:
 - Added license information for the repository (LICENSE.txt file and license information in README.md file).
 - double digit days and weeks for easier sorting.
 - final project folder.
+
+#### Updated in June 2017:
+- Removed creating a `.gitignore` file. GA's organization automatically does this for you.
