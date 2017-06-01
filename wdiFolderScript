@@ -14,9 +14,6 @@ count=0
 # The number of the first unit in your program
 unit=1
 
-# Adding .gitignore file to root of repo
-touch .gitignore
-
 # Adding .gitkeep to empty folders
 find . -type d -empty -not -path "./.git/*" -exec touch {}/.gitkeep \;
 
